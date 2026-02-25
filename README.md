@@ -69,21 +69,7 @@ account.deposit(500);
 // Assert
 assertEquals(1500, account.getBalance());
 
-This guarantees predictable and verifiable behaviour.
 
-🗂 Project Structure
-week2_lab/
-│
-├── pom.xml
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       ├── BankAccount.java
-│   │       └── Main.java
-│   │
-│   └── test/
-│       └── java/
-│           └── BankAccountTest.java
 
 main → Application code
 
